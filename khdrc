@@ -1,0 +1,20 @@
+# Enable kwm compatibility mode
+khd kwm on
+
+# Focus windows, XMonad style
+alt - j : kwmc window -f next 
+alt - k : kwmc window -f prev 
+
+# Swap windows
+alt + shift - j : kwmc window -s next 
+alt + shift - k : kwmc window -s prev 
+
+# Switch workspaces
+cmd + ctrl - left : kwmc space -fExperimental left
+cmd + ctrl - right : kwmc space -fExperimental right
+
+cmd + alt - 1: kwmc window -m space 1
+cmd + alt - 2: kwmc window -m space 2 
+cmd + alt - 3: kwmc window -m space 3 
+
+cmd - return : open -na /Applications/iTerm.app
