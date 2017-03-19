@@ -8,6 +8,8 @@ set incsearch
 set tw=76 ruler
 set laststatus=2
 inoremap <S-Tab> <C-V><Tab>
-colorscheme gruvbox
 set background=dark
 set clipboard+=unnamed
+let g:gruvbox_contrast_dark='hard'
+colorscheme gruvbox
+command Ls NERDTree 
