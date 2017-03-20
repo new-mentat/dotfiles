@@ -13,3 +13,5 @@ set clipboard+=unnamed
 let g:gruvbox_contrast_dark='hard'
 colorscheme gruvbox
 command Ls NERDTree 
+highlight VertSplit ctermBG=NONE
+highlight VertSplit ctermfg=NONE
