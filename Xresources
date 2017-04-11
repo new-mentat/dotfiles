@@ -1,12 +1,3 @@
-#if __has_include(".extend.Xresources")
-#include ".extend.Xresources"
-#endif
-
-! ^ The above lines are no comments!
-! Leave them as they are if a file ~/.extend.Xresources is being used on your system.
-! config can be added there or also here below.
-! For comments use "!"
-
 Xft.dpi: 160 
 Xft.antialias: true
 Xft.hinting: true
@@ -15,61 +6,31 @@ Xft.autohint: false
 Xft.hintstyle: hintslight
 Xft.lcdfilter: lcddefault
 
-xterm*faceSize: 10
-xterm*faceName: meslo:antialias=true
+xterm*faceSize: 9.0
+xterm*faceName: xft: DejaVu Sans Mono
 xterm*termName: xterm-256color
 xterm*internalBorder: 6 
 
-! Gruvbox terminal theme
-*background: #1d2021
-*foreground: #ebdbb2
+*background:         #000000
+*foreground:         #d9e6f2
 
-! Black + DarkGrey
-*color0:  #282828
-*color8:  #928374
-! DarkRed + Red
-*color1:  #cc241d
-*color9:  #fb4934
-! DarkGreen + Green
-*color2:  #98971a
-*color10: #b8bb26
-! DarkYellow + Yellow
-*color3:  #d79921
-*color11: #fabd2f
-! DarkBlue + Blue
-*color4:  #458588
-*color12: #83a598
-! DarkMagenta + Magenta
-*color5:  #b16286
-*color13: #d3869b
-! DarkCyan + Cyan
-*color6:  #689d6a
-*color14: #8ec07c
-! LightGrey + White
-*color7:  #a89984
-*color15: #ebdbb2
-
-! HyperTerm-Snazzy color scheme
-!*foreground: #eff0eb
-!*background: #282a36
-!*cursorColor: #97979b
+*color0:  #000000
+*color1:  #840002
+*color2:  #149a03
+*color3:  #878a05
+*color4:  #5858cc
+*color5:  #a000a3
+*color6:  #1396a4
+*color7:  #d9d9d9
+*color8:  #535353
+*color9:  #dc0005
+*color10: #1cd604
+*color11: #e0e309
+*color12: #000aff
+*color13: #dc00df
+*color14: #1de2df
+*color15: #e0dfe0
 !
-!*color0: #282a36
-!*color8: #686868
-!*color1: #ff5c57
-!*color9: #ff5c57
-!*color2: #5af78e
-!*color10:#5af78e
-!*color11:#f3f99d
-!*color4: #57c7ff
-!*color12:#57c7ff
-!*color5: #ff6ac1
-!*color13:#ff6ac1
-!*color6: #9aedfe
-!*color14:#9aedfe
-!*color7: #eff0eb
-!*color15:#f1f1f0
-
 ! ------------------------------------------------------------------------------
 ! ROFI Color theme
 ! Copyright: Sergio Morales
