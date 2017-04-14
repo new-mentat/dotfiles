@@ -3,7 +3,7 @@
 xrdb -merge ~/.Xresources
 
 setxkbmap -option ctrl:nocaps
-stalonetray &
 xscreensaver -no-splash &
-   
+
+eval $(ssh-agent -s)
 exec xmonad
